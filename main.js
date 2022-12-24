@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get("/hello", (req,res)=>{
-  res.send(200,"hello world")
+  res.status(200).send("hello world !");
 })
 
 app.listen(3000,()=>console.log("application strated successfully!"));

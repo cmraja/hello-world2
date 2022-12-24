@@ -1,2 +1,6 @@
+<<<<<<< .mine
 /node_modules
-package-lock.json
+=======
+node_modules
+>>>>>>> .theirs
+package-lock.jsontest
